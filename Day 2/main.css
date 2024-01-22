@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(12, 245, 136);
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+ #container { 
+    width: 700px;
+    height: 100%;
+    background: red;
+    border: 3px solid rgb(25, 0, 255);
+    padding: 20px;
+     box-shadow: 0px 0px 50px red;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out; */
+} 
+
+th{
+    font-size: large;
+}
+td{
+    /* text-align: center;  */
+}
+table.one
+{
+    border: 5px solid yellow;
+    
+}
