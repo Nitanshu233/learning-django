@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let menu = localStorage.getItem("menu_data")
+        console.log(menu.split(","))
+        let str = ""
+        for(let i=0; i<menu.split(' '); i++) {
+            str = str + menu.split(' ')[i]
+            console.log(str)
+        }
+        document.getElementById("demo").innerText = str
+    </script>
+</body>
+</html>
